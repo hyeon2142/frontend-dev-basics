@@ -7,11 +7,11 @@
 		<artifactId>frontend-dev-basics</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>ch04</artifactId>
+	<artifactId>ch07</artifactId>
 	<packaging>war</packaging>
 	
 	<build>
-		<finalName>ch04</finalName>
+		<finalName>ch07</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -19,7 +19,7 @@
 				<version>1.1</version>
 				<configuration>
 					<url>http://127.0.0.1:8088/manager/text</url>
-					<path>/ch04</path>
+					<path>/ch07</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
